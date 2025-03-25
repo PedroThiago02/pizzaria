@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => env('America/Sao_Paulo', 'UTC'),
+    'timezone' => env('APP_TIMEZONE', 'UTC'),
 
     /*
     |--------------------------------------------------------------------------
@@ -78,11 +78,11 @@ return [
     |
     */
 
-    'locale' => env('pt-BR', 'pt-BR'),
+    'locale' => env('APP_LOCALE', 'en'),
 
-    'fallback_locale' => env('pt-BR', 'pt-BR'),
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
-    'faker_locale' => env('pt-BR', 'pt-BR'),
+    'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
     /*
     |--------------------------------------------------------------------------
